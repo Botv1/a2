@@ -37,5 +37,7 @@ class Config(object):
     EMAIL_REGEX = re.compile(r"[^@]+@[^@]+\.[^@]+")
 
     def __init__(self):
-        self.APP_NAME = '%s\t%s\t%s\t%s' % (self.APP_TYPE, self.APP_VER, self.SYSTEM_NAME, self.SYSTEM_VER)
-        self.USER_AGENT = 'Line/%s' % self.APP_VER
+        self.APP_NAME = 'CHROMEOS\t1.4.17\tChrome_OS\t1'
+        self.USER_AGENT = 'Line/1.4.17'
+        #self.APP_NAME = '%s\t%s\t%s\t%s' % (self.APP_TYPE, self.APP_VER, self.SYSTEM_NAME, self.SYSTEM_VER)
+        #self.USER_AGENT = 'Line/%s' % self.APP_VER
